@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+
+.MainBannerOuter {
+  width: 100%;
+  display: flex;
+  /* min-height: 550px; */
+  background-color: bisque;
+}
+
+.MainBannerInner {
+  width: 100%;
+  min-height: 550px;
+  background-image: url("../../assets/MainBanner/dplus_lob_mas_dsk_05.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+justify-content: center;
+
+  align-items: center;
+}
+
+.MainBannercontent{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    padding-left: 9px;
+    align-items: center;
+    
+}
+
+.LeftContent{
+    width:500px;
+    height: 300px;
+
+}
+.LeftImgContiner{
+    width: 175px;
+    height: 95px;
+}
+.LeftImgContiner img{
+    width: 100%;
+    height: 100%;
+}
+.MainBannertitle{
+    color:white;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-top: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.Mainpara{
+    color:white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.MainButton{
+    width: 130px;
+    height: 48px;
+    background-color: #E62429;
+    color: white;
+    font-weight: 500;
+    margin-top: 10px;
+    transform: skewX(-12deg);
+}
+.MainButton span{
+    display: inline-block;
+    transform: skewX(12deg);
+}

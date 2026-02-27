@@ -1,0 +1,98 @@
+.latestNewsOuter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.latestNewsInner {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  
+  margin-left: -20px;
+}
+
+.latestNewsTitle {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.latestImgGrid {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.latestImgContainer {
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+}
+
+.latestImgbox {
+  width: 275px;
+  height: 168px;
+  overflow: hidden;
+}
+
+.latestImgbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.latestTitleNews {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-top: 8px;
+  text-transform: uppercase;
+  color: #767676;
+}
+
+.DescriptionCard {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 5px;
+  color: #151515;
+}
+.DescriptionCard:hover{
+  color:rgb(255,0,0)
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pagination span {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.activePage {
+  color:rgb(255,0,0);
+  font-weight: bold;
+}
+
+.pagination button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: normal;
+  cursor: pointer;
+  color: #151515;
+}
+
+.pagination button:disabled {
+  opacity: 0;
+  cursor: not-allowed;
+}

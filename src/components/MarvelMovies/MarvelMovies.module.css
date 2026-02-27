@@ -1,0 +1,49 @@
+.BackPage {
+  width: 100%;
+  height: autp;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.BackInner {
+  width: 1170px;
+  height: auto;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+}
+
+.MarvelMovieTitle {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.MarvelGridContainer {
+  display: flex;
+  flex-wrap: wrap;       
+  gap: 10px;
+
+}
+
+.MarvelImgContainer {
+  width:  185px;          
+  height: 345px;
+  background-color: blue;
+  display: flex;
+}
+
+.MarvelImgThumbnail {
+  width: 185px;
+  height: 291px;
+  background-color: bisque;
+}
+
+.MarvelImgThumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        
+}
