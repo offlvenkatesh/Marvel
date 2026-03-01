@@ -47,7 +47,7 @@
 }
 
 .latestTitleNews {
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 1px;
   font-weight: 700;
   margin-top: 8px;
@@ -71,6 +71,8 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .pagination span {
@@ -86,7 +88,7 @@
 .pagination button {
   background: none;
   border: none;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: normal;
   cursor: pointer;
   color: #151515;

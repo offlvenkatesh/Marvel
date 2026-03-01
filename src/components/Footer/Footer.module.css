@@ -1,0 +1,173 @@
+.FooterOuter {
+  width: 100%;
+  height: 350px;
+  background-color: #151515;
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.FooterInner {
+  width: 1180px;
+  height: 320px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Footerleft {
+  width: 476px;
+  height: 190px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+.sideleft {
+  width: 80px;
+  height: 115px;
+
+  margin-right: 53px;
+}
+.sideleft img {
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+  object-fit: cover;
+}
+.sideMidDiv {
+  color: white;
+  font-size: 13.6px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  cursor: pointer;
+
+  line-height: 16.9px;
+}
+.sideMidDiv:hover {
+  color: #767676;
+  transition: 0.3s ease;
+}
+.sideMiddle {
+  width: 152px;
+  height: 138px;
+
+  margin-right: 40px;
+}
+.sideRight {
+  width: 152px;
+  height: 138px;
+}
+.FooterMiddle {
+  width: 376px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 60px;
+}
+.footerMidDivTitle {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 16.9px;
+  cursor: pointer;
+}
+.footerMidDivTitle:hover {
+  color: #767676;
+  transition: 0.3s ease;
+}
+.footerMidDiv {
+  font-size: 14px;
+  color: #767676;
+  margin-top: -2px;
+  cursor: pointer;
+}
+
+.giftsFont {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  line-height: 16.9px;
+}
+.giftsFont:hover {
+  color: #767676;
+  transition: 0.3s ease;
+}
+.DoneFont {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  line-height: 16.9px;
+}
+.DoneFont:hover {
+  color: tomato;
+
+  transition: 0.5 ease-in-out;
+}
+.FooterRight {
+  width: 226px;
+  height: 190px;
+}
+
+.rightTitle {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-left: 13px;
+}
+.rightTitle:hover {
+  color: #767676;
+  transition: 0.3s ease;
+}
+
+.rightIcon {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.rightIcon i {
+  font-size: 20px;
+  color: #8f8f8f;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.rightIcon i:hover {
+  color: white;
+}
+
+.FooterInnerBottom {
+  width: 1180px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterInnerBottom ul {
+  display: flex;
+  gap: 25px;
+}
+.FooterInnerBottom li {
+  font-size: 12px;
+  color: #767676;
+  line-height: 14.4px;
+  cursor: pointer;
+  font-weight: 400;
+}
+li:hover {
+  color: white;
+}

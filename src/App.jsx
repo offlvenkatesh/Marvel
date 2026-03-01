@@ -3,7 +3,10 @@ import Header from './components/Header/Header';
 import HeroCards from './components/HeroCards/HeroCards';
 import MainBanner from './components/MainBanner/MainBanner';
 import LatestNews from './components/LatestNews/LatestNews'
-import MarvelMovies from './components/MarvelMovies/MarvelMovies';
+import MoviesCard from './components/MoviesCardLayout/MoviesCard';
+import FooterTop from './components/FooterTop/FooterTop';
+import Footer  from "./components/Footer/Footer"
+import OtherMovies from './components/OtherMovies/OtherMovies';
 
 function App() {
   return (
@@ -11,9 +14,11 @@ function App() {
     <Header/>
     <HeroCards/>
     <MainBanner/>
-  
     <LatestNews/>
-    <MarvelMovies/>
+    <MoviesCard/>
+    <OtherMovies/>
+    <FooterTop/>
+    <Footer/>
     </>
   )
 }

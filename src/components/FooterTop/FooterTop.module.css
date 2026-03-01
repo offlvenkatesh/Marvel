@@ -1,0 +1,92 @@
+.FooterTopOuter {
+  width: 100%;
+  height: 390px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.FooterTopInner {
+  width: 1180px;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.FooterTopleftside {
+  width: inherit;
+  height: inherit;
+}
+.FooterTopleftside img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.FooterTopRightside {
+  width: inherit;
+  height: inherit;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.DivContainer {
+  width: 580px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.DivTitle1 {
+  color: rgb(230, 36, 41);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Roboto;
+  letter-spacing: 3px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.DivTitle2 {
+  cursor: pointer;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: white;
+}
+.DivDescription {
+  cursor: pointer;
+  width: 550px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+ 
+}
+.DivButton {
+  width: 130px;
+  height: 48px;
+  background-color: #e62429;
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-top: 45px;
+  transform: skewX(-12deg);
+}
+.DivButton span {
+  display: inline-block;
+  transform: skewX(12deg);
+}
+.DivLastTitle{
+    font-size: 14px;
+    font-weight: 450;
+    margin-top: 30px;
+    color : white;
+
+}

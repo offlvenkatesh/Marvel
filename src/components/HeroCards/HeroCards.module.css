@@ -14,16 +14,16 @@
   margin-top: -33px;
   background-color: white;
   padding-top: 10px;
-  flex-wrap: nowrap; /* 🔥 one row */
+  flex-wrap: nowrap; 
 }
 
-/* Cards */
+
 .HeroCardsContainer {
   flex: 1 1 0;
   min-width: 0;
 }
 
-/* Image box */
+
 .HeroCards {
   width: 100%;
   aspect-ratio: 2 / 3;
@@ -37,7 +37,7 @@
   object-fit: cover;
 }
 
-/* Text */
+
 .title {
   font-size: 14px;
   font-weight: 600;

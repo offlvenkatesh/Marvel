@@ -10,14 +10,13 @@ body {
 
   max-width: 100%;
 }
-/* ========== SIDEBAR STYLES ========== */
-/* Sidebar Overlay */
+
 .sidebar-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 998;
   cursor: pointer;
@@ -31,14 +30,14 @@ body {
   visibility: visible;
 }
 
-/* Sidebar */
+
 .sidebar {
   position: fixed;
   top: 0;
   left: -50%;
   width: 50%;
   max-width: 400px;
-  height: 100vh;
+  
   background-color: #151515;
   z-index: 999;
   transition: left 0.3s ease-in-out;
@@ -94,8 +93,6 @@ body {
 }
 
 
-
-/* ========== TOP NAV STYLES ========== */
 .TopNav {
   width: 100%;
   overflow-x: hidden;
@@ -245,7 +242,6 @@ body {
   opacity: 0.9;
 }
 
-/* ========== MOBILE RESPONSIVE ========== */
 @media (max-width: 850px) {
   .Right-TopNav {
     display: none;
@@ -268,7 +264,7 @@ body {
     margin-left: -137px;
   }
 
-  /* Sidebar takes more width on mobile */
+
   .sidebar {
     width: 75%;
     max-width: 350px;

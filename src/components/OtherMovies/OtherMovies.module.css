@@ -1,0 +1,71 @@
+.MoviesOuterPage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.MoviesInnerPage {
+  width: 1200px;
+}
+.MarvelMovieTitle {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.Movielayout {
+  width: 100%;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  padding-bottom: 10px;
+}
+
+.MarvelImgThumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.MovieGrid {
+  height: 337px;
+  width: 185px;
+  margin-bottom: 23px;
+}
+
+.MarvelImgContainer {
+  width: 185px;
+  height: 287px;
+}
+
+.MarvelImgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+.MoviesCardstitle {
+  color: #151515;
+  font-size: 15px;
+  font-weight: 520;
+  margin-top: 17px;
+  cursor: pointer;
+}
+.MoviesCardstitle:hover {
+  color: rgb(255, 0, 0);
+}
+.MovieCardsdate {
+  color: #6e7491;
+  font-size: 12px;
+  font-weight: 600;
+}

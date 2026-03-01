@@ -1,7 +1,6 @@
 # Marvel
 
-This React project demonstrates practical implementation of core concepts.
-styled with Tailwind CSS for rapid UI development.
+An interactive React UI bringing the Marvel Cinematic Universe to life with stunning visuals and seamless browsing.
 
 ## 🚀 Tech Stack
 
@@ -19,6 +18,13 @@ styled with Tailwind CSS for rapid UI development.
 
 ```
 Marvel/
+Preview/
+  Footer.png
+  Header.png
+  HeroSection.png
+  LatestNews.png
+  MarvelMovies.png
+  OtherMovies.png
 README.md
 eslint.config.js
 index.html
@@ -5063,6 +5069,10 @@ src/
   App.css
   App.jsx
   assets/
+    Footer/
+      Screenshot from 2026-02-28 16-21-18.png
+    FooterTop/
+      mu-promo_module_standard_dsk.jpg
     HeroCards/
       avengersdoomsday_lob_crd_01.jpg
       captainamericabravenewworld_lob_crd_05.jpg
@@ -5093,11 +5103,70 @@ src/
       Inter.zip
       disneyplus_lob_log_eye_01.png
       dplus_lob_mas_dsk_05.jpg
-    MarvelMovies/
+    MovieCard/
+      ant-man_lob_crd_01_8.jpg
+      ant-manthewasp_lob_crd_01.jpg
+      antmanandthewaspquantumania_lob_crd_03.jpg
+      avengersageofultron_lob_crd_03.jpg
+      avengersdoomsday_lob_crd_02.jpg
+      avengersendgame_lob_crd_05_2.jpg
+      avengersinfinitywar_lob_crd_02_1.jpg
+      avengerssecretwars_lob_crd_02.jpg
+      blackpanther_lob_crd_01_4.jpg
+      blackpantherwakandaforever_lob_crd_06.jpg
+      blackwidow_lob_crd_06.jpg
+      blade_lob_crd_01.jpg
+      captainamerica_lob_crd_01.jpg
+      captainamericabravenewworld_lob_crd_05.jpg
+      captainamericacivilwar_lob_crd_01_9.jpg
+      captainamericathewintersoldier_lob_crd_01_1.jpg
+      captainmarvel_lob_crd_06.jpg
+      deadpoolandwolverine_lob_crd_03.jpg
+      doctorstrange_lob_crd_01_6.jpg
+      doctorstrangeinthemultiverseofmadness_lob_crd_02_3.jpg
+      eternals_lob_crd_06.jpg
+      guardiansofthegalaxy_lob_crd_03.jpg
+      guardiansofthegalaxyvolume3_lob_crd_03.jpg
+      ironman2_lob_crd_01_3.jpg
+      ironman3_lob_crd_01_10.jpg
+      ironman_lob_crd_01_3.jpg
+      shangchi_lob_crd_07.jpg
+      spider-manfarfromhome_lob_crd_04_3.jpg
+      spider-manhomecoming_lob_crd_02.jpg
+      spider-mannowayhome_lob_crd_03.jpg
+      spidermanbrandnewday_lob_crd_01.jpg
+      theavengers_lob_crd_03.jpg
+      thefantasticfourfirststeps_lob_crd_03.jpg
+      theincrediblehulk_lob_crd_03.jpg
+      themarvels_lob_crd_05.jpg
+      thenewavengers_lob_crd_01.jpg
+      thor_lob_crd_01.jpg
+      thorloveandthunder_lob_crd_04.jpg
+      thorragnarok_lob_crd_03.jpg
+      thorthedarkworld_lob_crd_02_1.jpg
     Navbar/
       Marvel_Logo.svg
       icon-mu-shield.png
+    OtherMovies/
+      darkphoenix_lob_crd_01.jpg
+      deadpool2_lob_crd_02.jpg
+      deadpool_lob_crd_02.jpg
+      fox_x-menapocalypse_lob_crd_01.jpg
+      fox_x-mendaysoffuturepast_lob_crd_01.jpg
+      logan_lob_crd_02.jpg
+      spider-man2_lob_crd_01.jpg
+      spider-man3_lob_crd_01.jpg
+      spider-man_lob_crd_01.jpg
+      theamazingspider-man_lob_crd_01 (1).jpg
+      theamazingspider-man_lob_crd_01.jpg
+      venom_lob_crd_01.jpg
   components/
+    Footer/
+      Footer.jsx
+      Footer.module.css
+    FooterTop/
+      FooterTop.jsx
+      FooterTop.module.css
     Header/
       Header.jsx
       HeroSection/
@@ -5118,10 +5187,16 @@ src/
     MainBanner/
       MainBanner.jsx
       MainBanner.module.css
-    MarvelMovies/
-      MarvelMovies.jsx
-      MarvelMovies.module.css
+    MoviesCardLayout/
+      MoviesCard.jsx
+      MoviesCard.module.css
+    OtherMovies/
+      OtherMovies.jsx
+      OtherMovies.module.css
   index.css
   main.jsx
 vite.config.js
 ```
+## 📸 Preview
+
+![src/assets/Footer/Screenshot from 2026-02-28 16-21-18.png](src/assets/Footer/Screenshot from 2026-02-28 16-21-18.png)
